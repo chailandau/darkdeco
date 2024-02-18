@@ -11,6 +11,7 @@ export async function POST(request: NextRequest) {
     const inferenceData = await client.inferAsync(
       "https://image.octoai.run/generate/sdxl",
       {
+        // I misspelled 'stippling' as 'stipping' but it works better
         prompt: `${data.prompt} with light stipping at night in dark deco style`,
         negative_prompt: "Blurry, distortion, low-res, poor quality, day, sunlight",
         style_preset: "base",
