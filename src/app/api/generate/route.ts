@@ -12,7 +12,7 @@ export async function POST(request: NextRequest) {
       "https://image.octoai.run/generate/sdxl",
       {
         // I misspelled 'stippling' as 'stipping' but it works better
-        prompt: `${data.prompt} with light stipping at night in dark deco style`,
+        prompt: `${data.prompt} dimensional, with light stipping at night, in dark deco style`,
         negative_prompt: "Blurry, distortion, low-res, poor quality, day, sunlight",
         style_preset: "base",
         checkpoint: "octoai:lcm_sdxl",
