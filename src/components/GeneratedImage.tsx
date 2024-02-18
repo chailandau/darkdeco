@@ -7,10 +7,10 @@ import { getAltText } from "@/util/getAltText";
 import ErrorBanner from "./ErrorBanner";
 
 const GeneratedImage = () => {
-  const initialPrompt = "a hummingbird smelling a flower";
+  const initialPrompt = "a car in front of a building";
   const [inputValue, setInputValue] = useState("");
   const [generatedImage, setGeneratedImage] = useState(
-    "/images/hummingbird.jpg"
+    "/images/car-building.jpg"
   );
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);

@@ -11,14 +11,14 @@ export async function POST(request: NextRequest) {
     const inferenceData = await client.inferAsync(
       "https://image.octoai.run/generate/sdxl",
       {
-        prompt: `${data.prompt}, colorful bright embroidery filling frame, threads visible`,
-        negative_prompt: "Blurry, distortion, low-res, poor quality",
+        prompt: `${data.prompt} with light stipping at night in dark deco style`,
+        negative_prompt: "Blurry, distortion, low-res, poor quality, day, sunlight",
         style_preset: "base",
-        sampler: "DPM_PLUS_PLUS_2M_KARRAS",
-        loras: { asset_01hps8hwkxevct5n4eqkjey9xb: 1.5 },
-        steps: 25,
-        cfg_scale: 7,
-        use_refiner: true,
+        checkpoint: "octoai:lcm_sdxl",
+        sampler: "LCM",
+        loras: { asset_01hpwp84x4ewf9gqq4qzbg1xgh: 1 },
+        steps: 30,
+        cfg_scale: 2,
         width: 1024,
         height: 1024,
       }
