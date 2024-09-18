@@ -19,14 +19,8 @@ Our demo tech stack includes
 Clone the repo
 
 ```bash
-git clone https://github.com/octoml/octoai-apps.git
+git clone https://github.com/chailandau/darkdeco.git
 
-```
-
-Navigate to the demo you want to use
-
-```bash
-cd octoai-apps/embroiderize
 ```
 
 ## Add OctoAI token to `.env`
@@ -55,6 +49,6 @@ yarn dev
 
 ## Deploying
 
-[Deploy to Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foctoml%2Foctoai-apps%2Ftree%2Fmain%2Fsmartflakes&env=OCTOAI_TOKEN&envDescription=Create%20an%20OctoAI%20token%20if%20you%20don't%20already%20have%20one.&envLink=https%3A%2F%2Focto.ai%2Fdocs%2Fgetting-started%2Fhow-to-create-an-octoai-access-token&project-name=my-embroiderize-app&repository-name=my-embroiderize-app)
+[Deploy to Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fchailandau%2Fdarkdeco%2F&env=OCTOAI_TOKEN&envDescription=Create%20an%20OctoAI%20token%20if%20you%20don't%20already%20have%20one.&envLink=https%3A%2F%2Focto.ai%2Fdocs%2Fgetting-started%2Fhow-to-create-octoai-access-token%2F&project-name=my-dark-deco-app&repository-name=my-dark-deco-app)
 
 The easiest way to deploy is by using [Vercel](https://vercel.com/docs/frameworks/nextjs), but you can use [any host](https://nextjs.org/docs/app/building-your-application/deploying#self-hosting) that supports Node.js.
