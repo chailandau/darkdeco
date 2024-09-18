@@ -1,8 +1,8 @@
-# Embroiderize
+# Dark Deco
 
-[Try out](https://embroiderize.octo.ai/) Embroiderize for yourself!
+[Try out]([https://embroiderize.octo.ai/](https://darkdeco.vercel.app/)) DarkDeco for yourself!
 
-Embroiderize demo in Next.js + TypeScript.
+DarkDeco demo in Next.js + TypeScript.
 
 Demos utilize our [demo design system](https://github.com/octoml/demo-design-system) that is easy to swap out for your own styling.
 
